@@ -2,6 +2,10 @@
 The example and code snippets correspond to the article "Exploring Basics of the HTTP Protocol" 
 in the inaugural edition of ACCS Journal "Advanced Communications and Computing" volume 01, issue 01, 2017.
 
+## ACCS-EL-HTTP-Basics.pdf\
+	The PDF version of the article as appeared in ACCS Magazine
+"Advanced Communications and Computing", Vol 01, Issue 01.
+
 The examples as shown in the tables in this article are
 listed below. The description of each is given below. These examples assume that hostname
 *myweb.com* is resolvable to IP address for network communication to work. To ensure this,
@@ -31,5 +35,5 @@ e.g. *Apache* web server.
         *cat Table5-Req-Badheader.txt | nc myweb.com 80*
 
 **Table6-Resp-BadHeader.txt**:\
-        This is the content of web response when web request contains *bad* HTTP Request
-        headers.
+        This is the content of web response when web request contains *bad* HTTP Request headers.
+
